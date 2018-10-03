@@ -1,0 +1,233 @@
+@font-face {
+    font-family: pacifico;
+    src: url(Pacifico.ttf)
+}
+@font-face {
+    font-family: montserrat;
+    src: url(montserrat.otf)
+}
+@font-face {
+    font-family: cardo-bold;
+    src: url(Cardo-Bold.ttf)
+}
+@font-face {
+    font-family: lily;
+    src: url(Lily\ of\ the\ Valley.ttf)
+}
+*{
+    margin:0px;
+    padding: 0px;
+}
+.nav-item{
+    color: white;
+    font-size: 12pt;
+    font-family: montserrat;
+}
+.navbar{
+    background: rgba(0, 0, 0, 0)
+}
+.active{
+    font-weight: bold;
+}
+.start-container{
+    color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.border-top-4{
+    border-top-width: 2pt;
+    border-top-color: white;
+    border-top-style: solid;
+}
+.border-bottom-4{
+    border-bottom-width: 2pt;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+}
+.cover{
+    background: rgba(0,0,0,0);
+}
+.cover h1{
+    color: white;
+    font-size: 6rem;
+    border: none;
+    outline: none;
+}
+.cover .card-text{
+    color: white;
+    font-size: 16pt;
+    font-weight: bold;
+    padding: 4pt;
+}
+a:hover{
+
+    font-weight: bolder;
+    cursor: pointer;
+}
+::selection {
+    color: white; 
+    background: red;
+}
+#login-heading{
+    color: 	#EE204D;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+    padding: 6pt;
+    border-bottom: 2px solid #EE204D;
+    display: inline-block;
+}
+.forgot{
+    color: 	black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+}
+.forgot:hover{
+    color: 	black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    text-decoration: underline;
+}
+input::selection{
+    color: white;
+    background: red;
+}
+.login .input-group-text{
+    background: #f6f6f6;
+    border: none;
+    outline: none;
+}
+.login input{
+    background: #f6f6f6;
+    border: none;
+    outline: none;
+    padding-top: 20pt;
+    padding-bottom: 20pt;
+}
+.login input:focus{
+    background: #f6f6f6;
+    border: none;
+    outline: none;
+    box-shadow:none;
+}
+.login input::placeholder{
+    color:black;
+}
+#btn-login{
+    background: linear-gradient(to right, #ed7298, #ec8871);
+    box-shadow: none;
+    padding-top:10pt;
+    padding-bottom: 10pt;
+    padding-left: 50pt;
+    padding-right: 50pt;
+    border-radius: 25pt;
+    margin-top:10pt;         
+}
+.login .card-header{
+   border:none
+}
+.login .card-footer{
+    border: none;
+    padding: 0px;
+    background: white;
+}
+.login-btn{
+    color:#f4695a;
+    font-size: 40pt;
+    padding: 5pt;
+}
+.facebook{
+    background: #3b5998
+}
+.btn-circle{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.google-plus{
+    background: #f4695a;
+}
+.twitter
+{
+    background:#03a9;
+}
+.github{
+    background:black;
+}
+.login-text{
+    margin-top:5pt;
+}
+.algorithm-container{
+    background: #2e3842;
+ }
+.algorithm-image{
+    height: 150pt;
+    width: 150pt;
+    border-radius:50%;
+    background: #E44D26;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F16529, #E44D26);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F16529, #E44D26); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+}
+/* .algorithm-container .click-btn{
+    border:none;
+    box-shadow: none;
+    background: #34e89e;
+    background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  
+    background: linear-gradient(to right, #0f3443, #34e89e);
+*/
+/* .algorithm-container .col-12{
+    display:flex;
+    align-items: flex-end;
+    
+}
+.algorithm-container .card-title{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 24pt;
+    transition: 1s;
+}
+.algorithm-container .card-text{
+    font-size: 14pt;
+    color: #c8ece9;
+    transition: 1s;
+}
+.algorithm-container .card-subtitle{
+    color:white;
+}
+.algorithm-container hr{
+    background: rgba(0,0,0,0.2);
+}
+.algorithm-container .card{
+    align-self: center;
+    background: rgba(0,0,0,0);
+    border: none;
+    transition: 1s;
+} */
+
+.nav-link{
+    color: white;
+}
+.algorithm-container  .carousel-item{
+    background-size:cover;
+    background-attachment: fixed;
+}
+.algorithm-container .algorithm-title{
+    color:white;
+    font-weight: bold;
+    font-size:4rem;
+}
+.algorithm-container .algorithm-text{
+    color: white;
+    font-weight: normal;
+}
+.algorithm-body{
+    background:rgba(0,0,0,0.3);
+    height:auto;
+    margin-bottom: 15%;
+}
+/* Projects */
+.project-image {   
+    height: 200pt;
+    width: 200pt;
+    border-radius: 40%;
+}

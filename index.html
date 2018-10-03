@@ -1,0 +1,203 @@
+<html>
+    <head>
+        <title>
+            Debugger
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+        <meta property="og:title" content="Debugger">
+        <meta property="og:description" content="Debug,Learn & Try">
+        <meta property="og:image" content="https://avatars0.githubusercontent.com/u/31070108?s=460&v=4">
+        <script src="jquery.js"></script>
+        <script src="bootstrap.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link rel="stylesheet" href="bootstrap.css"/>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="script.js">
+        </script>
+    </head>
+    <body class="container-fluid p-0 m-0">
+      <nav class="m-0 row navbar home-bar fixed-top  navbar-expand-lg navbar-dark  ">
+            <button class="navbar-toggler navbar-light navbar-fixed-top" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+  
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <i class="fas fa-code mr-4 ml-2" style="color:white;font-size:14pt;"></i>
+                <ul class="navbar-nav ml-auto mr-auto w-auto d-flex" >
+                  <li class="nav-item  ml-2 mr-2">
+                    <a class="nav-link active  "href="#">Home</a>
+                  </li>
+                  <li class="nav-item ml-2 mr-2">
+                      <a class="nav-link " >Projects</a> 
+                    </li>
+                  <li class="nav-item ml-2 mr-2">
+                    <a class="nav-link ">Blog</a> 
+                  </li>
+                  <li class="nav-item ml-2 mr-2">  
+                    <a class="nav-link ">Developer</a>                
+                  </li>
+                  <li class="nav-item ml-2 mr-2">  
+                      <a class="nav-link "><i class="fab fa-github mr-2"></i>Github</a>                
+                    </li>    
+                </ul>
+                <button class="btn btn-outline-light "  data-toggle="modal" data-target="#signinModal">
+                    Sign In  
+                  </button>
+              </div>
+      </nav>  
+      <div class="modal shadow fade login " id="signinModal" tabindex="-1" role="dialog" >
+            <div class="modal-dialog modal-dialog-centered p-0" role="document">
+              <div class="modal-content p-0">
+                <div class="modal-body p-0">          
+                    <div class="card m-0 p-2">
+                      <div class="card-header m-0 bg-white ">
+                        <p id="login-heading">
+                          LOGIN NOW TO GET STARTED
+                        </p>
+                      </div>  
+                      <div class="card-body my-0 pb-2 pt-0">
+                        <form ">
+                          <div class="input-group ">
+                            <div class="input-group-prepend ">
+                              <span class="input-group-text ">
+                                  <i class="far fa-user"></i>
+                              </span>
+                            </div>
+                            <input type="email" class="form-control " placeholder="Username">
+                            <div class="input-group-append ">
+                                <span class="input-group-text  ">
+                                    <a href="#" class="text-dark forgot">Forgot?</a>
+                                </span>
+                            </div> 
+                          </div>
+                          <div class="input-group mt-4">
+                              <div class="input-group-prepend ">
+                                <span class="input-group-text ">
+                                    <i class="fas fa-fingerprint"></i>
+                                </span>
+                              </div>
+                              <input type="password" class="form-control" placeholder="Password"> 
+                              <div class="input-group-append ">
+                                  <span class="input-group-text ">
+                                      <a href="#" class="text-dark forgot">Forgot?</a>
+                                  </span>
+                              </div>
+                            </div>  
+                            <div class="custom-control custom-checkbox mt-4">
+                                <input type="checkbox" class="custom-control-input" id="rememberMe">
+                                <label class="custom-control-label" for="rememberMe">Remember Me</label>
+                              </div>
+                        </form>
+                        <button type="button" id="btn-login"class="btn btn-primary btn-lg border-4 rounded-4">Login</button>
+                        <p class="w-auto mt-4 mb-2 font-weight-bold">
+                            You may also try login with:
+                        </p>
+                        <div class="container my-4">
+                            <div class="row">
+                              <div class="col-3 align-item-center text-center">
+                                <a href="#">
+                                    <button type="button" class="btn btn-circle facebook">
+                                    <i class="fab text-white fa-facebook-f fa-2x"></i>        
+                                    </button>
+                                </a>
+                                <div class="text-black login-text font-weight-bold">
+                                  Facebook
+                                </div>  
+                              </div>
+                              <div class="col-3 align-item-center text-center">
+                                  <a href="#">
+                                    <button type="button" class="btn btn-circle google-plus">
+                                    <i class="fab text-white fa-google-plus-g fa-2x"></i>        
+                                    </button>
+                                  </a>
+                                  <div class="text-black login-text font-weight-bold">
+                                    Google+
+                                  </div>  
+                              </div> 
+                              <div class="col-3 align-item-center  text-center">
+                                  <a href="#">
+                                    <button type="button" class="btn btn-circle twitter">
+                                    <i class="fab text-white fa-twitter fa-2x"></i>        
+                                    </button>
+                                  </a>
+                                  <div class="text-black login-text font-weight-bold">
+                                    Twitter
+                                  </div>  
+                              </div>   
+                              <div class="col-3 align-item-center text-center">
+                                  <a href="#">
+                                    <button type="button" class="btn btn-circle github">
+                                    <i class="fab text-white fa-github fa-2x"></i>        
+                                    </button>
+                                  </a>
+                                  <div class="text-black login-text font-weight-bold">
+                                    Github
+                                  </div>  
+                              </div>  
+                            </div>
+                        </div>
+                        </div>  
+                      </div>   
+                    </div>
+                </div>
+              </div>
+      </div>
+      <div class="m-0 p-0 cover row container-fluid w-100 h-100">
+          <div class="row m-0 w-100 h-100" style="background: url('https://images.pexels.com/photos/552791/pexels-photo-552791.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');background-size: cover;background-attachment: scroll;background-repeat: no-repeat" >
+                <div class="col-12 m-0 d-flex">
+                    <div class="card align-self-center w-100 cover text-center border-0 ">
+                        <div class="card-body">
+                          <h1 class="card-title text-center">Debugger</h1>
+                          <p class="card-text">Code, Debug and Learn</p>
+                          <button class="btn btn-lg btn-danger active card-link mt-2">Get Started</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+      </div>
+ 
+      <div class="container-fluid  w-100 h-100 project-container" id="project">
+        <div class="row w-100 h-100  m-0  py-4  "> 
+           <div class="col-sm-4 col-12 h-100 align-items-center d-flex">
+             <div class="card text-center align-items-center py-2 ">
+                <div class="card-body">
+                 <img src="https://yogayubacity.com/wp-content/uploads/2017/12/03.jpg" class="algorithm-image">   
+                 <h2 class="card-title mt-4 ">Stacktrace</h2>                    
+                 <h6 class="card-subtitle mb-2 text-muted font-weight-normal">Basic Algo+</h6> 
+                 <hr class="mx-5"/>
+                 <p class="card-text mt-2">A stack trace is a report that provides information about program subroutines. It is commonly used for certain kinds of debugging, where a stack trace can help software engineers figure out where a problem lies or how various subroutines work together during execution.</p>
+                 <a href="#" class="btn active click-btn btn-danger">Start Coding</a>
+                </div>     
+             </div>     
+           </div>
+           <div class="col-sm-4 col-12 h-100 align-items-center d-flex">
+                 <div class="card text-center align-items-center  py-2">
+                    <div class="card-body">
+                         <img src="https://w-dog.net/wallpapers/13/18/430948049347260/art-recursion-images-immersion-brush-paint-hands-album-workspace-artist-picture-immersing-paints-workplace.jpg" class="algorithm-image">   
+                         <h2 class="card-title mt-4 ">Recursion</h2>                    
+                         <h6 class="card-subtitle mb-2 text-muted font-weight-normal">Intermediate Algo+</h6> 
+                         <hr class="mx-5"/>
+                         <p class="card-text mt-2">Recursion in computer science is a method of solving a problem where the solution depends on solutions to smaller instances of the same problem. The approach can be applied to many types of problems, and recursion is one of the central ideas of computer science. </p>
+                         <a href="#" class="btn active click-btn btn-success">Start Coding</a>
+                    </div>     
+                 </div>     
+             </div>
+             <div class="col-sm-4 col-12 h-100 align-items-center d-flex">
+                 <div class="card text-center align-items-center  py-2">
+                     <div class="card-body">
+                         <img src="https://etechcomputers.com.au/wp-content/uploads/2017/02/Etech-Computers-social-networking.jpg" class="algorithm-image">   
+                         <h2 class="card-title mt-4 ">Graphs</h2>                    
+                         <h6 class="card-subtitle mb-2 text-muted font-weight-normal">Advanced Algo+</h6> 
+                         <hr class="mx-5"/>
+                         <p class="card-text mt-2">
+                                 A graph data structure consists of a finite (and possibly mutable) set of vertices or nodes or points, together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a directed graph. These pairs are known as edges, arcs, or lines for.....</p>
+                         <a href="#" class="btn active click-btn btn-dark">Start Coding</a>
+                     </div>     
+                 </div>     
+             </div>
+        </div>
+        
+     </div>  
+    </body>
+</html>
